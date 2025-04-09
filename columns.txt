@@ -1,0 +1,55 @@
+TRANSACTIONAL 2355241 entries
+ 0   Patient Id       object
+ 1   Gender           object
+ 2   Date of birth    object
+ 3   Date of service  object
+ 4   Service Id       object
+ 5   Lab Id           object
+ 6   CodItem          int64 
+ 7   Testing Cost     object
+
+EXAMS 2002 entries
+ 0   CodItem       2002 non-null   int64  
+ 1   Desc Item     2002 non-null   object 
+ 2   Category      2002 non-null   object 
+ 3   Family        2002 non-null   object 
+ 4   Speciality    2002 non-null   object 
+ 5   Testing Cost  2002 non-null   float64
+
+DEMOGRAPHIC 33120 entries
+ 2   GeographicAreaName               33120 non-null  object 
+ 3   TotalPopulation                  33120 non-null  int64  
+ 4   SexRatio(males per 100 females)  32620 non-null  float64
+ 5   Population_Under5Years           33120 non-null  int64  
+ 6   Population_5to9Years             33120 non-null  int64  
+ 7   Population_10to14Years           33120 non-null  int64  
+ 8   Population_15to19Years           33120 non-null  int64  
+ 9   Population_20to24Years           33120 non-null  int64  
+ 10  Population_25to34Years           33120 non-null  int64  
+ 11  Population_35to44Years           33120 non-null  int64  
+ 12  Population_45to54Years           33120 non-null  int64  
+ 13  Population_55to59Years           33120 non-null  int64  
+ 14  Population_60to64Years           33120 non-null  int64  
+ 15  Population_65to74Years           33120 non-null  int64  
+ 16  Population_75to84Years           33120 non-null  int64  
+ 17  Population_85YearsAndOver        33120 non-null  int64  
+ 18  MedianAgeInYears                 32551 non-null  float64
+
+GEOCODES 119 entries
+ 1   Lab Id      119 non-null    object 
+ 2   Address     119 non-null    object 
+ 3   Location    119 non-null    object 
+ 4   Zipcode     118 non-null    float64
+
+ECONOMICS 629280 entries
+ 2   Geographic Area Name                629280 non-null  object
+ 3   TotalHouseholds_LessThan$10.000     629280 non-null  int64 
+ 4   TotalHouseholds_$10.000to$14.999    629280 non-null  int64 
+ 5   TotalHouseholds_$15.000to$24.999    629280 non-null  int64 
+ 6   TotalHouseholds_$25.000to$34.999    629280 non-null  int64 
+ 7   TotalHouseholds_$35.000to$49.999    629280 non-null  int64 
+ 8   TotalHouseholds_$50.000to$74.999    629280 non-null  int64 
+ 9   TotalHouseholds_$75.000to$99.999    629280 non-null  int64 
+ 10  TotalHouseholds_$100.000to$149.999  629280 non-null  int64 
+ 11  TotalHouseholds_$150.000to$199.999  629280 non-null  int64 
+ 12  TotalHouseholds_$200.000OrMore      629280 non-null  int64 
